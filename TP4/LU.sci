@@ -1,0 +1,5 @@
+tic()
+A=rand(n,n)
+[L,U]=lu(A)
+toc()
+t=toc()
